@@ -1,0 +1,72 @@
+*,
+::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  max-width: 1140px;
+  width: 80%;
+  margin: 2em auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 4em;
+}
+
+h2,
+button {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1em 0;
+  line-height: 1.3;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  line-height: 1.6;
+}
+
+button {
+  font-size: 0.875rem;
+  border: none;
+  background-color: #333333;
+  padding: 1.225em 1.5em;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .flex {
+    flex-direction: row;
+  }
+
+  .desc {
+    margin-left: 1em;
+  }
+}
